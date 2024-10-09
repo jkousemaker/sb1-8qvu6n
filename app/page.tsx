@@ -14,9 +14,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-background to-secondary">
       {!sessionStarted ? (
         <>
-          <h1 className="text-4xl font-bold mb-8">
-            Welcome to THEEE Meditation
-          </h1>
+          <h1 className="text-4xl font-bold mb-8">Welcome to CalmCanvas</h1>
           <Button onClick={() => setIsModalOpen(true)} size="lg">
             Start Meditation
           </Button>
